@@ -10,7 +10,26 @@
 
 /* RESPONSIVE 
 **************************************/
+.wrapper-main {
+	width: 1000px;
+	margin: 0 auto;
+	align-content: center;
+}
 
+.page-wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.wrapper2 {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.wrapper3 {
+	width: 800px;
+	margin: 0 auto;
+}
 @media (max-width: 1156px) {
     .small-box .shadow-desc h4 {
         font-size: 14px;

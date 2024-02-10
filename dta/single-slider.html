@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,13 +44,7 @@
 
 </head>
 <body>
-
-    <!-- LOADER -->
-    <div id="preloader">
-        <img class="preloader" src="images/loader.gif" alt="">
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-
+<div class="wrapper-main">
     <div id="wrapper">
         <div class="collapse top-search" id="collapseExample">
             <div class="card card-block">
@@ -73,27 +67,23 @@
                 </div><!-- end row -->
             </div><!-- end header-logo -->
         </div><!-- end header -->
-
+<div class="wrapper3">
         <div class="topbar-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs-down">
                         <div class="topsocial">
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/DigitalTourismAfrica" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa-youtube"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Flickr"><i class="fa fa-flickr"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
+                            <a href="https://www.linkedin.com/company/digital-tourism-africa/" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://twitter.com/DigitourismAf" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/digitaltourismafrica?igsh=MXh0YXNyc2dxMHVuYQ%3D%3D&utm_source=qr" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
                         </div><!-- end social -->
                     </div><!-- end col -->
 
                     <div class="col-lg-4 hidden-md-down">
                         <div class="topmenu text-center">
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="blog-category-01.html"><i class="fa fa-star"></i> Trends</a></li>
-                                <li class="list-inline-item"><a href="blog-category-02.html"><i class="fa fa-bolt"></i> Hot Topics</a></li>
+                            <ul class="list-inline">                            
                                 <li class="list-inline-item"><a href="page-contact.html"><i class="fa fa-user-circle-o"></i> Contact us</a></li>
                             </ul><!-- end ul -->
                         </div><!-- end topmenu -->
@@ -107,6 +97,7 @@
                 </div><!-- end row -->
             </div><!-- end header-logo -->
         </div><!-- end topbar -->
+		</div>
 
         <header class="header">
             <div class="container">
@@ -125,12 +116,12 @@
                                     <li>
                                         <div class="mega-menu-content clearfix">
                                             <div class="tab">
-                                                <button class="tablinks active" onclick="openCategory(event, 'cat01')">NEWS</button>
-                                                <button class="tablinks" onclick="openCategory(event, 'cat02')">EVENTS</button>
-                                                <button class="tablinks" onclick="openCategory(event, 'cat03')">TRAVELTECH</button>
-                                                <button class="tablinks" onclick="openCategory(event, 'cat04')">AVIATION</button>
-                                                <button class="tablinks" onclick="openCategory(event, 'cat05')">HOTELTECH</button>
-												<button class="tablinks" onclick="openCategory(event, 'cat05')">SUSTAINABLE TOURISM</button>
+                                                <button class="tablinks active" onclick="openCategory(event, 'cat01')">News</button>
+                                                <button class="tablinks" onclick="openCategory(event, 'cat02')">Events</button>
+                                                <button class="tablinks" onclick="openCategory(event, 'cat03')">TravelTech</button>
+                                                <button class="tablinks" onclick="openCategory(event, 'cat04')">Aviation</button>
+                                                <button class="tablinks" onclick="openCategory(event, 'cat05')">Hoteltech</button>
+												<button class="tablinks" onclick="openCategory(event, 'cat05')">Sustainable Tourism</button>
                                             </div>
 
                                             <div class="tab-details clearfix">
@@ -474,106 +465,59 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown has-submenu">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                                    <li><a class="dropdown-item" href="single.html">Single Blog <span class="hidden-md-down hidden-sm-down hidden-xs-down"><i class="fa fa-angle-right"></i></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="single.html">Single Default</a></li>
-                                            <li><a class="dropdown-item" href="single-fullwidth.html">Single Fullwidth</a></li>
-                                            <li><a class="dropdown-item" href="single-slider.html">Single Gallery</a></li>
-                                            <li><a class="dropdown-item" href="single-video.html">Single Video</a></li>
-                                            <li><a class="dropdown-item" href="single-audio.html">Single Audio</a></li>
-                                            <li><a class="dropdown-item" href="single-no-media.html">Single No Media</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="single.html">Blog Category <span class="hidden-md-down hidden-sm-down hidden-xs-down"><i class="fa fa-angle-right"></i></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="blog-category-01.html">Blog Category A</a></li>
-                                            <li><a class="dropdown-item" href="blog-category-02.html">Blog Category B</a></li>
-                                            <li><a class="dropdown-item" href="blog-category-03.html">Blog Category C</a></li>
-                                            <li><a class="dropdown-item" href="blog-category-04.html">Blog Category D</a></li>
-                                            <li><a class="dropdown-item" href="blog-category-05.html">Blog Category E</a></li>
-                                            <li><a class="dropdown-item" href="blog-category-06.html">Blog Category F</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="blog-author.html">Blog Author</a></li>
-                                    <li><a class="dropdown-item" href="page-contact.html">Contact Page</a></li>
-                                    <li><a class="dropdown-item" href="page.html">Default Page</a></li>
-                                    <li><a class="dropdown-item" href="page-fullwidth.html">Fullwidth Page</a></li>
-                                    <li><a class="dropdown-item" href="page-404.html">Not Found Page</a></li>
-                                    <li><a class="dropdown-item" href="page-sitemap.html">Sitemap & Archives</a></li>
-                                </ul>
-                        <li class="nav-item">
-                                <a class="nav-link color-pink-hover" href="blog-category-01.html">NEWS</a>
+                            
+                                <a class="nav-link color-pink-hover" href="single-fullwidth.html">NEWS</a>
 
                             </li>
 							<li class="nav-item">
-                                <a class="nav-link color-red-hover" href="blog-category-02.html">EVENTS</a>
+                                <a class="nav-link color-red-hover" href="single.html">EVENTS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link color-red-hover" href="blog-category-03.html">TRAVELTECH</a>
+                                <a class="nav-link color-red-hover" href="single1.html">TRAVELTECH</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link color-aqua-hover" href="blog-category-04.html">AVIATION</a>
+                                <a class="nav-link color-aqua-hover" href="single2.html">AVIATION</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link color-green-hover" href="blog-category-06.html">HOTELTECH</a>
+                                <a class="nav-link color-green-hover" href="single3.html">HOTELTECH</a>
                             </li>  
                             <li class="nav-item">
                                 <a class="nav-link color-yellow-hover" href="blog-category-05.html"><i class="fa fa-play-circle-o"></i> Vlogs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link color-grey-hover" href="blog-category-07.html">SUSTAINABLE TOURISM</a>
+                                <a class="nav-link color-grey-hover" href="single4.html">SUSTAINABLE TOURISM</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div><!-- end container -->
         </header><!-- end header -->
-
+<div class="wrapper2">
         <section class="section wb">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                                <ol class="breadcrumb hidden-xs-down">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Blog</a></li>
-                                    <li class="breadcrumb-item active">Opened the doors of the Istanbul spa center</li>
-                                </ol>
+                                
+                                <span class="color-grey"><a href="single-fullwidth.html" title="">News</a></span>
 
-                                <span class="color-grey"><a href="blog-category-01.html" title="">Health</a></span>
+                                <h3>World Travel Awards Africa & Indian Ocean 2022 winners announced at KICC, Nairobi</h3>
 
-                                <h3>Opened the doors of the Istanbul spa center</h3>
-
-                                <div class="blog-meta big-meta">
-                                    <small><a href="single.html" title="">21 July, 2017</a></small>
-                                    <small><a href="blog-author.html" title="">by Jessica</a></small>
-                                    <small><a href="#" title=""><i class="fa fa-eye"></i> 2344</a></small>
-                                </div><!-- end meta -->
-
-                                <div class="post-sharing">
-                                    <ul class="list-inline">
-                                        <li><a href="#" class="fb-button btn btn-primary"><i class="fa fa-facebook"></i> <span class="down-mobile">Share on Facebook</span></a></li>
-                                        <li><a href="#" class="tw-button btn btn-primary"><i class="fa fa-twitter"></i> <span class="down-mobile">Tweet on Twitter</span></a></li>
-                                        <li><a href="#" class="gp-button btn btn-primary"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div><!-- end post-sharing -->
+                                
                             </div><!-- end title -->
 
                             <div class="single-post-media">
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="upload/blog_07.jpg" alt="First slide">
+                                            <img class="d-block img-fluid" src="upload/menu_07.jpg" alt="First slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="upload/blog_08.jpg" alt="Second slide">
+                                            <img class="d-block img-fluid" src="upload/menu_08_1.jpg" alt="Second slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="upload/blog_09.jpg" alt="Third slide">
+                                            <img class="d-block img-fluid" src="upload/menu_05_1.jpg" alt="Third slide">
                                         </div>
                                     </div>
                                     <ol class="carousel-indicators">
@@ -586,62 +530,38 @@
 
                             <div class="blog-content">  
                                 <div class="pp">
-                                    <p>In lobortis pharetra mattis. Morbi nec nibh iaculis, <a href="#">bibendum augue a</a>, ultrices nulla. Nunc velit ante, lacinia id tincidunt eget, faucibus nec nisl. In mauris purus, bibendum et gravida dignissim, venenatis commodo lacus. Duis consectetur quis nisi nec accumsan. Pellentesque enim velit, ut tempor turpis. Mauris felis neque, egestas in lobortis et,iaculis at nunc ac, rhoncus sagittis ipsum. </p>
-
-                                    <h3><strong>Maecenas non convallis quam, eu sodales justo. Pellentesque quis lectus elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></h3>
-
-                                    <p>Donec nec metus sed leo sollicitudin ornare sed consequat neque. Aliquam iaculis neque quis dui venenatis, eget posuere felis viverra. Ut sit amet feugiat elit, nec elementum velit. Sed eu nisl convallis, efficitur turpis eu, euismod nunc. Proin neque enim, malesuada non lobortis nec, facilisis et lectus. Ie consectetur. Nam eget neque ac ex fringilla dignissim eu ac est. Nunc et nisl vel odio posuere. </p>
-
-                                    <p>Vivamus non condimentum orci. Pellentesque venenatis nibh sit amet est vehicula lobortis. Cras eget aliquet eros. Nunc lectus elit, suscipit at nunc sed, finibus imperdiet ipsum. Maecenas dapibus neque sodales nulla finibus volutpat. Integer pulvinar massa vitae ultrices posuere. Proin ut tempor turpis. Mauris felis neque, egestas in lobortis et, sodales non ante. Ut vestibulum libero quis luctus tempus. Nullam eget dignissim massa. Vivamus id condimentum orci. Nunc ac sem urna. Aliquam et hendrerit nisl massa nunc. </p>
-
+                                    <p style="text-align: justify">World Travel Awards acknowledges, rewards and celebrates excellence across all sectors of the tourism industry.The stars of travel, tourism and hospitality aligned at the Kenyatta International Convention Centre (KICC), Nairobi, Kenya to find out who amongst them had won the industry’s ultimate annual honours.A capacity audience of 400 VIP guests, industry figureheads and media were in attendance for a sensational World Travel Awards (WTA) Africa & Indian Ocean Gala Ceremony 2022. </p>
+						
                                 </div><!-- end pp -->
 
-                                <img src="upload/blog_11.jpg" alt="" class="img-fluid img-fullwidth">
+                                <img src="upload/menu_07.jpg" alt="" class="img-fluid img-fullwidth">
 
                                 <div class="pp">
-                                    <h3><strong>Nam non velit est. Sed lobortis arcu vitae nunc molestie consectetur. Nam eget neque ac ex fringilla dignissim eu ac est. Nunc et nisl vel odio posuere. </strong></h3>
+                    
+                                    <p style="text-align: justify">Big winners at the red-carpet reception included the Maldives winning ‘Indian Ocean’s Leading Destination’ and ‘Indian Ocean’s Leading Tourist Board. Cape Town picked up the coveted honour of ‘Africa’s Leading City Destination. Kenya topped off an evening that will live long in the memory by scooping the major title of ‘Africa’s Leading Destination’, capital Nairobi claimed the prize for ‘Africa’s Leading Business Travel Destination’ and KICC for ‘Africa’s Leading Meetings & Conference Centre. ‘Indian Ocean’s Leading Wedding Destination’ went to Mauritius, while ‘Indian Ocean’s Leading Honeymoon Destination’ was won by Seychelles. Thanda Island took the trophy for ‘Africa’s Leading Luxury Island.</p>
+									
+									<p style="text-align: justify">The event marked the return of business tourism with a bang and gave cause for an unbridled celebration for Kenya Airways with a hat-trick of top aviation honours. Kenya’s flagship carrier claimed success in categories for ‘Africa’s Leading Airline - Business Class, ‘Africa’s Leading Airline Brand’ and the ultimate prize of ‘Africa’s Leading Airline. Ethiopian Airlines took the title of ‘Africa’s Leading Airline – Economy Class. Air Seychelles celebrated with the honour of ‘Indian Ocean’s Leading Airline’ with ‘Indian Ocean’s Leading Airline Brand’ won by Air Mauritius. Travel industry VIPs from 25 nations attended the World Travel Awards comeback event at KICC in heart of Kenya’s vibrant capital city, Nairobi.</p>
+								</div> 
+								<div class="pp">
 
-                                    <p>Vivamus non condimentum orci. Pellentesque venenatis nibh sit amet est vehicula lobortis. Cras eget aliquet eros. Nunc lectus elit, suscipit at nunc sed, finibus imperdiet ipsum. Maecenas dapibus neque sodales nulla finibus volutpat. Integer pulvinar massa vitae ultrices posuere. Proin ut tempor turpis. Mauris felis neque, egestas in lobortis et, sodales non ante. Ut vestibulum libero quis luctus tempus. Nullam eget dignissim massa. Vivamus id condimentum orci. Nunc ac sem urna. Aliquam et hendrerit nisl massa nunc. </p>
+                                    <p style="text-align: justify"><img src="upload/menu_05_1.jpg" class="float-left" width="340" alt="">Graham Cooke, Founder, of WTA, said: “What a breathtaking event and what a truly memorable experience was had by our blue-chip audience. WTA had the privilege of recognising the region’s leading lights as the industry marked its triumphant return in style. </p>
+									
+									<p style="text-align: justify">As stellar examples of tourism excellence, our winners have helped to once again raise the bar”. “Nairobi is a pulsating city, rich in heritage but with a dynamic, forward-thinking business focus. And at its epicentre is the majestic KICC. I would like to put on record my heartfelt thanks to Nana Gecaga – the KICC’s superstar CEO and her fabulous team, as well as extend my gratitude to our generous Event Partners and Supporting Partners. I’ve been travelling the globe for the last 29 years heading up our annual Grand Tour of gala ceremonies. Tonight was amongst the very best I’ve had the privilege of leading. As the industry bounces back better and stronger, Kenya should take its place at the high table of world-class tourism destinations”.</p>
+								</div>
+									
+								<img src="upload/menu_08_1.jpg" alt="" class="img-fluid img-fullwidth">
+								
+								<div class="pp">
 
-                                    <p>Morbi pharetra porta consequat. Aenean et diam sapien. <a href="#">Interdum et malesuada</a> fames ac ante ipsum primis in faucibus. Pellentesque dictum ligula iaculis, feugiat metus eu, sollicitudin ex. Quisque eu ullamcorper ligula. In vel ex ac purus finibus viverra. Maecenas pretium lobortis turpis. Fusce lacinia nisi in tortor massa nunc.</p>
+                                    <p style="text-align: justify">The refined elegance of Fairmont Mount Kenya Safari Club claimed the ultimate hospitality award for ‘Africa’s Leading Hotel’, with Radisson Blu taking top honour for ‘Africa’s Leading Hotel Brand’. Saxon Hotel, Villas and Spa, South Africa won the prize for ‘Africa’s Leading Boutique Hotel’ with Transcorp Hilton Abuja, Nigeria taking the title ‘Africa’s Leading Business Hotel’The hotly contested category for ‘Indian Ocean’s Leading New Resort’ went to Jumeirah Maldives Olhahali Island; the award for ‘Indian Ocean’s Leading Beach Resort’ went to Andilana Beach Resort; Madagascar, ‘Indian Ocean’s Leading Luxury Island Resort’ was awarded to Waldorf Astoria Maldives Ithaafushi; and ‘Indian Ocean’s Leading Resort’ was won by Vakkaru Maldives.</p>
 
-                                    <ul class="check">
-                                        <li>Integer sit amet odio ac lectus imperdiet elementum.</li>
-                                        <li>Praesent vitae lacus sed lacus ullamcorper mollis.</li>
-                                        <li>Donec vitae metus ac felis vulputate tincidunt non et ex.</li>
-                                        <li>In dapibus sapien at viverra venenatis.</li>
-                                        <li>Pellentesque mollis velit id maximus finibus.</li>
-                                    </ul>
+									<p style="text-align: justify">Travel provider winners included Flight Centre, South Africa (‘Africa’s Leading Travel Agency’) and Thompson’s Africa (‘South Africa’s Leading Destination Management Company). In the Indian Ocean region top honours went to Get Into Maldives Travel ‘Indian Ocean’s Leading Luxury Tour Operator’, Simply Maldives (‘Indian Ocean’s Leading Travel Agency’) with Mautourco taking the honours for both ‘Indian Ocean’s Leading Destination Management Company and ‘Indian Ocean’s Leading Tour Operator.The next red carpet events on the WTA Grand Tour 2022 will take place in Amman, Jordan (Middle East) followed by Muscat, Oman (Grand Final).Here is more information and a full list of all the winners.</p>
 
-                                    <p>Proin ultricies nulla consectetur, sollicitudin dolor at, sollicitudin mauris. Maecenas at nunc nunc. Ut nulla felis, tincidunt et porttitor at, rutrum in dolor. Aenean id tincidunt ligula. Donec vitae placerat odio. Mauris accumsan nibh ut nunc maximus, ac auctor elit vehicula. Cras leo sem, vehicula a ultricies ac, condimentum vitae lectus. Sed ut eros euismod, luctus nisl eu, congue odio. </p>
-
-                                    <p><img src="upload/blog_01.jpg" class="float-left" width="340" alt="">Suspendisse ultrices placerat dolor sed efficitur. Morbi in laoreet diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut massa id lectus laoreet porta non in metus. Donec nibh justo, tincidunt non justo ut, tincidunt malesuada turpis. Cras pellentesque sollicitudin ex eget pharetra.</p>
-
-                                    <h3><strong>Nam non velit est. Sed lobortis arcu vitae nunc molestie consectetur. Nam eget neque ac ex fringilla dignissim eu ac est. Nunc et nisl vel odio posuere. </strong></h3>
-
-
-                                    <p>Aliquam eget maximus odio. Aliquam varius nisl ut leo fermentum, id fringilla magna tempus. Curabitur quis bibendum lorem, ut suscipit tellus. Morbi id dictum justo, et massa nunc. Mauris laoreet, neque et varius malesuada, justo neque consequat dolor, sit amet semper dui ligula commodo enim. Duis mauris magna, euismod in ante sed, laoreet faucibus elit. Nam euismod vulputate lorem, nec tincidunt lacus volutpat sit amet. In libero eros, dignissim vitae quam sed, maximus consectetur justo. Donec id orci eget odio convallis pellentesque. Quisque urna cras amet.Vivamus non condimentum orci. Pellentesque venenatis nibh sit amet est vehicula lobortis. Cras eget aliquet eros. Nunc lectus elit, suscipit at nunc sed, finibus imperdiet ipsum. Maecenas dapibus neque sodales nulla finibus volutpat. Integer pulvinar massa vitae ultrices posuere. Proin ut tempor turpis. Mauris felis neque, egestas in lobortis et, sodales non ante. Ut vestibulum libero quis luctus tempus. Nullam eget dignissim massa. Vivamus id condimentum orci. Nunc ac sem urna. Aliquam et hendrerit nisl massa nunc. </p>
-
-                                    <p>Vivamus non condimentum orci. Pellentesque venenatis nibh sit amet est vehicula lobortis. Cras eget aliquet eros. Nunc lectus elit, suscipit at nunc sed, finibus imperdiet ipsum. Maecenas dapibus neque sodales nulla finibus volutpat. Integer pulvinar massa vitae ultrices posuere. Proin ut tempor turpis. Mauris felis neque, egestas in lobortis et, sodales non ante. Ut vestibulum libero quis luctus tempus. Nullam eget dignissim massa. Vivamus id condimentum orci. Nunc ac sem urna. Aliquam et hendrerit nisl massa nunc. </p>
                                 </div><!-- end pp -->
                             </div><!-- end content -->
 
-                            <div class="blog-title-area">
-                                <div class="tag-cloud-single">
-                                    <span>Tags</span>
-                                    <small><a href="#" title="">lifestyle</a></small>
-                                    <small><a href="#" title="">colorful</a></small>
-                                    <small><a href="#" title="">trending</a></small>
-                                    <small><a href="#" title="">another tag</a></small>
-                                </div><!-- end meta -->
-
-                                <div class="post-sharing">
-                                    <ul class="list-inline">
-                                        <li><a href="#" class="fb-button btn btn-primary"><i class="fa fa-facebook"></i> <span class="down-mobile">Share on Facebook</span></a></li>
-                                        <li><a href="#" class="tw-button btn btn-primary"><i class="fa fa-twitter"></i> <span class="down-mobile">Tweet on Twitter</span></a></li>
-                                        <li><a href="#" class="gp-button btn btn-primary"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div><!-- end post-sharing -->
+                            
+                                
                             </div><!-- end title -->
 
                             <div class="row">
@@ -656,38 +576,7 @@
 
                             <hr class="invis1">
 
-                            <div class="custombox prevnextpost clearfix">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="blog-list-widget">
-                                            <div class="list-group">
-                                                <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                    <div class="w-100 justify-content-between text-right">
-                                                        <img src="upload/blog_square_02.jpg" alt="" class="img-fluid float-right">
-                                                        <h5 class="mb-1">The aviation of the future – a glimpse into 2050</h5>
-                                                        <small>Prev Post</small>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div><!-- end col -->
-
-                                    <div class="col-lg-6">
-                                        <div class="blog-list-widget">
-                                            <div class="list-group">
-                                                <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                    <div class="w-100 justify-content-between">
-                                                        <img src="upload/blog_square_03.jpg" alt="" class="img-fluid float-left">
-                                                        <h5 class="mb-1">What Is The Future Of Air Travel?</h5>
-                                                        <small>Next Post</small>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div><!-- end col -->
-                                </div><!-- end row -->
-                            </div><!-- end author-box -->
-
+                            
                             <hr class="invis1">
 
                             <div class="custombox authorbox clearfix">
@@ -698,16 +587,14 @@
                                     </div><!-- end col -->
 
                                     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                                        <h4><a href="#">Jessica</a></h4>
-                                        <p>Quisque sed tristique felis. Lorem <a href="#">visit my website</a> amet, consectetur adipiscing elit. Phasellus quis mi auctor, tincidunt nisl eget, finibus odio. Duis tempus elit quis risus congue feugiat. Thanks for stop Cloapedia!</p>
+                                        <h4><a href="#">Uduny</a></h4>
+                                        <p>Hi There. Nice to Meet You. I'm Uduny I love helping Hotels with Digital Marketing where I found my way into design, tech, community management & reputation management. Welcome to the lobby!</p>
 
                                         <div class="topsocial">
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa-youtube"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Website"><i class="fa fa-link"></i></a>
+                                            <a href="https://www.facebook.com/kennedy.uduny.3/" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/kenkauduny/" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://www.instagram.com/ken_kauduny/" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                        
                                         </div><!-- end social -->
 
                                     </div><!-- end col -->
@@ -723,16 +610,15 @@
                                         <div class="blog-box">
                                             <div class="post-media">
                                                 <a href="single.html" title="">
-                                                    <img src="upload/menu_06.jpg" alt="" class="img-fluid">
+                                                    <img src="upload/blog_11.jpg" alt="" class="img-fluid">
                                                     <div class="hovereffect">
                                                         <span class=""></span>
                                                     </div><!-- end hover -->
                                                 </a>
                                             </div><!-- end media -->
                                             <div class="blog-meta">
-                                                <h4><a href="single.html" title="">We are guests of ABC Design Studio</a></h4>
-                                                <small><a href="blog-category-01.html" title="">Trends</a></small>
-                                                <small><a href="blog-category-01.html" title="">21 July, 2017</a></small>
+                                                <h6><a href="single-slider1.html" title="">Uduny Bids Goodbye to Baobab Beach Resort and it's Affiliated Properties</a></h6>
+                                             
                                             </div><!-- end meta -->
                                         </div><!-- end blog-box -->
                                     </div><!-- end col -->
@@ -741,16 +627,15 @@
                                         <div class="blog-box">
                                             <div class="post-media">
                                                 <a href="single.html" title="">
-                                                    <img src="upload/menu_07.jpg" alt="" class="img-fluid">
+                                                    <img src="upload/menu_06.jpg" alt="" class="img-fluid">
                                                     <div class="hovereffect">
                                                         <span class=""></span>
                                                     </div><!-- end hover -->
                                                 </a>
                                             </div><!-- end media -->
                                             <div class="blog-meta">
-                                                <h4><a href="single.html" title="">Nostalgia at work with family</a></h4>
-                                                <small><a href="blog-category-01.html" title="">News</a></small>
-                                                <small><a href="blog-category-01.html" title="">20 July, 2017</a></small>
+                                                <h6><a href="single-slider2.html" title="">Technology Solutions That Reach Resort Guests Everywhere They Want to Be</a></h6>
+                                               
                                             </div><!-- end meta -->
                                         </div><!-- end blog-box -->
                                     </div><!-- end col -->
@@ -760,7 +645,7 @@
                             <hr class="invis1">
 
                             <div class="custombox clearfix">
-                                <h4 class="small-title">3 Comments</h4>
+                                <h4 class="small-title">Comments</h4>
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="comments-list">
@@ -770,35 +655,12 @@
                                                 </a>
                                                 <div class="media-body">
                                                     <h4 class="media-heading user_name">Amanda Martines <small>5 days ago</small></h4>
-                                                    <p>Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa eiusmod Pinterest in do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar jean.</p>
+                                                    <p>Thank you</p>
                                                     <a href="#" class="btn btn-primary btn-sm">Reply</a>
                                                 </div>
                                             </div>
-                                            <div class="media">
-                                                <a class="media-left" href="#">
-                                                    <img src="upload/author_01.jpg" alt="" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body">
-
-                                                    <h4 class="media-heading user_name">Baltej Singh <small>5 days ago</small></h4>
-
-                                                    <p>Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko tempor duis single-origin coffee. Banksy, elit small.</p>
-
-                                                    <a href="#" class="btn btn-primary btn-sm">Reply</a>
-                                                </div>
-                                            </div>
-                                            <div class="media last-child">
-                                                <a class="media-left" href="#">
-                                                    <img src="upload/author_02.jpg" alt="" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body">
-
-                                                    <h4 class="media-heading user_name">Marie Johnson <small>5 days ago</small></h4>
-                                                    <p>Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko tempor duis single-origin coffee. Banksy, elit small.</p>
-
-                                                    <a href="#" class="btn btn-primary btn-sm">Reply</a>
-                                                </div>
-                                            </div>
+                                            
+                                            
                                         </div>
                                     </div><!-- end col -->
                                 </div><!-- end row -->
@@ -823,197 +685,16 @@
                         </div><!-- end page-wrapper -->
                     </div><!-- end col -->
 
-                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                        <div class="sidebar">
-                            <div class="widget">
-                                <h2 class="widget-title">Search</h2>
-                                <form class="form-inline search-form">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Search on the site">
-                                    </div>
-                                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
-                                </form>
-                            </div><!-- end widget -->
-
-                            <div class="widget">
-                                <h2 class="widget-title">Recent Posts</h2>
-                                <div class="blog-list-widget">
-                                    <div class="list-group">
-                                        <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                            <div class="w-100 justify-content-between">
-                                                <img src="upload/blog_square_01.jpg" alt="" class="img-fluid float-left">
-                                                <h5 class="mb-1">Future of Aviation</h5>
-                                                <small>21 JULY, 2023</small>
-                                            </div>
-                                        </a>
-
-                                        <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                            <div class="w-100 justify-content-between">
-                                                <img src="upload/blog_square_02.jpg" alt="" class="img-fluid float-left">
-                                                <h5 class="mb-1">The aviation of the future – a glimpse into 2050</h5>
-                                                <small>20 July, 2023</small>
-                                            </div>
-                                        </a>
-
-                                        <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                            <div class="w-100 last-item justify-content-between">
-                                                <img src="upload/blog_square_03.jpg" alt="" class="img-fluid float-left">
-                                                <h5 class="mb-1">What Is The Future Of Air Travel?</h5>
-                                                <small>07 Jan, 2016</small>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div><!-- end blog-list -->
-                            </div><!-- end widget -->
-
-                            <div class="widget">
-                                <h2 class="widget-title">Advertising</h2>
-                                <div class="banner-spot clearfix">
-                                    <div class="banner-img">
-                                        <img src="upload/banner_03.jpg" alt="" class="img-fluid">
-                                    </div><!-- end banner-img -->
-                                </div><!-- end banner -->
-                            </div><!-- end widget -->
-
-                            <div class="widget">
-                                <h2 class="widget-title">Instagram Feed</h2>
-                                <div class="instagram-wrapper clearfix">
-                                    <a class="" href="#"><img src="upload/insta_01.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_02.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_03.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_04.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_05.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_06.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_07.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_08.jpeg" alt="" class="img-fluid"></a>
-                                    <a href="#"><img src="upload/insta_09.jpeg" alt="" class="img-fluid"></a>
-                                </div><!-- end Instagram wrapper -->
-                            </div><!-- end widget -->
-
-                            <div class="widget">
-                                <h2 class="widget-title">Popular Categories</h2>
-                                <div class="link-widget">
-                                    <ul>
-                                        <li><a href="#">News <span>(21)</span></a></li>
-                                        <li><a href="#">TravelTech <span>(15)</span></a></li>
-                                        <li><a href="#">Events <span>(31)</span></a></li>
-                                        <li><a href="#">HotelTech <span>(22)</span></a></li>
-                                        <li><a href="#">Vlogs <span>(66)</span></a></li>
-                                        <li><a href="#">Aviation <span>(11)</span></a></li>
-                                        <li><a href="#">Sustainable Tourism <span>(87)</span></a></li>
-                                    </ul>
-                                </div><!-- end link-widget -->
-                            </div><!-- end widget -->
-
-                        </div><!-- end sidebar -->
-                    </div><!-- end col -->
                 </div><!-- end row -->
             </div><!-- end container -->
         </section>
+	</div>
+	</div>
 
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                        <div class="widget">
-                            <h2 class="widget-title">Recent Posts</h2>
-                            <div class="blog-list-widget">
-                                <div class="list-group">
-                                    <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                        <div class="w-100 justify-content-between">
-                                            <img src="upload/blog_square_01.jpg" alt="" class="img-fluid float-left">
-                                            <h5 class="mb-1">Future of Aviation</h5>
-                                            <small>21 JULY, 2023</small>
-                                        </div>
-                                    </a>
-
-                                    <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                        <div class="w-100 justify-content-between">
-                                            <img src="upload/blog_square_02.jpg" alt="" class="img-fluid float-left">
-                                            <h5 class="mb-1">The aviation of the future – a glimpse into 2050</h5>
-                                            <small>11 Jan, 2016</small>
-                                        </div>
-                                    </a>
-
-                                    <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                        <div class="w-100 last-item justify-content-between">
-                                            <img src="upload/blog_square_03.jpg" alt="" class="img-fluid float-left">
-                                            <h5 class="mb-1">What Is The Future Of Air Travel?</h5>
-                                            <small>09 July, 2017</small>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- end blog-list -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                        <div class="widget">
-                            <h2 class="widget-title">Popular Posts</h2>
-                            <div class="blog-list-widget">
-                                <div class="list-group">
-                                    <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                        <div class="w-100 justify-content-between">
-                                            <img src="upload/blog_square_04.jpg" alt="" class="img-fluid float-left">
-                                            <h5 class="mb-1">The Pearl of Africa Tourism Expo23</h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-
-                                    <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                        <div class="w-100 justify-content-between">
-                                            <img src="upload/blog_square_07.jpg" alt="" class="img-fluid float-left">
-                                            <h5 class="mb-1">Holidays, Tourism Fair 2024</h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-
-                                    <a href="single.html" class="list-group-item list-group-item-action flex-column align-items-start">
-                                        <div class="w-100 last-item justify-content-between">
-                                            <img src="upload/blog_square_06.jpg" alt="" class="img-fluid float-left">
-                                            <h5 class="mb-1">OurAfrica.Travel 2024 opens for Registration</h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- end blog-list -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                        <div class="widget">
-                            <h2 class="widget-title">Popular Categories</h2>
-                            <div class="link-widget">
-                                <ul>
-                                    <li><a href="#">NEWS <span>(21)</span></a></li>
-                                    <li><a href="#">TRAVELTECH <span>(15)</span></a></li>
-                                    <li><a href="#">EVENTS <span>(31)</span></a></li>
-                                    <li><a href="#">HOTELTECH <span>(22)</span></a></li>
-                                    <li><a href="#">Vlogs <span>(66)</span></a></li>
-                                    <li><a href="#">AVIATION <span>(11)</span></a></li>
-                                    <li><a href="#">SUSTAINABLE TOURISM <span>(87)</span></a></li>
-                                </ul>
-                            </div><!-- end link-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
+                    
                 </div><!-- end row -->
 
                 <hr class="invis1">
@@ -1025,11 +706,11 @@
                                 <a href="index.html"><img src="images/flogo.png" alt="" class="img-fluid"></a>
                                 <p>Digital Tourism Africa is your number one digital news agency for your tourism news and events around Africa.</p>
                                 <div class="social">
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                                   <a href="https://www.facebook.com/DigitalTourismAfrica" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                    <a href="https://twitter.com/DigitourismAf" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/digitaltourismafrica?igsh=MXh0YXNyc2dxMHVuYQ%3D%3D&utm_source=qr" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/company/digital-tourism-africa/" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa-youtube"></i></a>
                                 </div>
 
                                 <hr class="invis">
